@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title> Midnight Cafe|Home</title>
+        <meta author="Madisen Elam">
+        <style>
+            ol {list-style-type: lower-roman;}
+            /* Class Selector */
+            .one {list-style-type: square;}
+            /* Type Selector */
+            table {border-collapse: collapse; width: 80%; margin:auto}
+            th, td {border: 1px solid #c9d3e0; padding: 12px;}
+            th {background-color: #39345f;}
+            caption {color: #edeae4; font-weight: 600; padding: 10px; font-size: 1.2em;}
+            /* Universal Selector */
+            * {box-sizing: border-box;}
+            /* ID Selector */
+            #about {text-align: left;}
+            /* Descendant Selector */
+            section p {line-height: 1.6;}
+            /* Child Selector */
+            nav > a {color: rgb(169, 155, 209); text-decoration: none;}
+            section {margin-bottom: 50px; padding: 20px;}
+             td a {color:white; text-decoration: none;}
+            td a: visited {color: white;}
+            body {font-family: "Palantino Linotype", "Book Antiqua", Georgia, serif; 
+                font-size: medium; 
+                margin: 3%;
+                color: white;
+                background-image: url("images/cafe bg.png");
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+            footer a {color: white; text-decoration: none;}
+            footer a:visited {color: white;}
+            nav {text-align: center;}
+            .special
+                {border: 2px solid #c9d3e0; padding: 15px; margin: 20px; background-color: #d9b86c;}
+        ol li {margin-bottom: 12px;}    
+        .drink-description {text-align: center;}
+        .drink-description img {display: block; margin: auto;}
+        </style>
+    </head>
+        <body>
+             <header>
+                <h1 style="text-align: center;"> The Moonlit Hour </h1>
+                <p style="text-align: center";> YOUR ESCAPE AFTER DARK</p>
+
+            <nav>
+                <a href="#about"> Our Galaxy |</a>
+                <a href="#experience"> A Galactic Experience |</a>
+                <a href="#featured"> Featured Items |</a>
+                <a href="#menu"> Our Menu |</a>
+                <a href="#ordering"> How to Order |</a>
+                <a href="hours"> Visit Us|</a>
+                <a href="credits.html"> Credits </a> 
+            </nav>
+            
+            </header>
+            <section id="about">
+                <h2> Our Galaxy </h2>
+                <!--The text appears ivory because inline color is prioritized over the class color-->
+                <p style="text-align: center"> Come enjoy our <span class="deepviolet" style="color: #3122a6;"> cosmic-inspired</span> caf&eacute; for the late-night thinkers, dreamers, and star chasers. <br> Coffee Today, Another Universe Tomorrow </p>
+            </section>
+            
+            <section id="experience">
+                <h2> A Galactic Experience </h2>
+                <p> Discover a Universe Catered to You: </p>
+                <ul>
+                    <li> Celestial-inspired drinks</li>
+                    <li> Cozy moonlit seating </li>
+                    <li> Late-night entertainment
+                        <ul>
+                            <li class="one"> Live music </li>
+                            <li class="one"> Stargazing events </li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+
+            <section id="featured">
+                <h2> Featured Items</h2>
+                <div class="special">
+                <p> Try our new <strong>Milkway Matcha </strong>!<em> Available for a limited time. </em></p>
+                <figure>
+                    <img src="images/matcha.webp"
+                    alt="Milkway Matcha"
+                    width="350">
+                    <figcaption> Milkway Matcha - A creamy blend of matcha, milk, and caramel. </figcaption>
+                </figure>
+                </div>
+                <figure>
+                    <img src="images/chai latte.webp"
+                    alt="Brown Sugar Chai Latte"
+                    width="350">
+                    <figcaption> Cosmic Chai - Our signature Brown Sugar Chai Latte. </figcaption>
+                </figure>
+            </section>
+               
+            <section id="menu"> 
+                <h2> Our Menu </h2>
+                <table>
+                    <caption> Signature Moonlit Creations </caption>
+                    <thead> 
+                        <tr>
+                            <th> Item </th>
+                            <th> Description </th>
+                            <th> Price </th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td> Cosmic Chai </td>
+                            <td class="drink-description">
+                                <img src="images/chai latte.webp"
+                                alt="Brown Sugar Chai Latte"
+                                width="100">
+                                Brown Sugar Chai Latte
+                            </td>
+                            <td> $6.50 </td>
+                        </tr>
+
+                        <tr>
+                            <td> Solar Eclipse </td>
+                            <td> Vanilla Cappuccino w/ Cinnamon </td>
+                            <td> $5.59 </td>
+                        </tr>
+
+                        <tr> 
+                            <td> 
+                                <a href="ordering"> Zero Gravity Refresher</a>
+                            </td>
+                            <td> Starfall flavored with dragonfruit, mango, and lemonade </td>
+                            <td> $7.50 </td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="3">
+                                Moonlight Happy Hour: 20% off your 2<sup>nd</sup> drink from 8-10 PM!
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section id="ordering"> 
+                <h2> How to Order </h2>
+                <ol>
+                    <li> Choose from our celestial-inspired menu </li>
+                    <li> Place your order at the counter</li>
+                    <li> Collect your order when your name is called </li>
+                    <li> Enjoy! </li>
+                </ol>
+            </section>
+
+                <hr>
+
+                <section id="hours">
+                <h2> Visit Us </h2>
+                <p>
+                    Monday - Thursday: 6PM - 1AM <br>
+                    Friday - Saturday: 7PM - 3AM <br>
+                    Sunday: 6PM - l2AM
+                </p>
+                <p> Visit us at 134340 Eclipse Dr, Chicago, IL </p>
+
+                <footer>
+                    <p> Created by: Madisen Elam </p>
+                    <p> 
+                        <a href="credits.html"> Image Credits </a>
+                    </p>
+                </footer>
+               
+                
+          
+            </body>
+    
+</html>
